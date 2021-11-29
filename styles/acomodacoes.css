@@ -1,0 +1,92 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-size: 100%;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+nav,
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 0.9;
+}
+a:hover {
+  opacity: 1;
+}
+
+header {
+  background-color: white;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+}
+header img {
+  width: 200px;
+}
+header nav {
+  display: flex;
+}
+header li a {
+  color: #191c03;
+}
+header li {
+  margin: 0 15px;
+}
+header li:first-child {
+  margin-left: 0;
+}
+header li:last-child {
+  margin-right: 0;
+}
+
+.hero {
+  background-image: url(../img/hotel.jpg);
+  background-size: cover;
+  min-height: 100vh;
+}
+
+h1,
+h2 {
+  color: rgb(12, 2, 20);
+  flex-direction: column;
+  text-align: center;
+  font-size: 35px;
+  font-family: "Titillium Web", sans-serif;
+}
+
+h2 {
+  margin: 15px;
+  font-size: 20px;
+}
+
+.vmar img {
+  height: 200px;
+  width: 300px;
+  padding: 20px;
+}
+
+.vmar {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+figcaption {
+  margin-top: 5px;
+  margin-left: 80px;
+}
+
+.botao {
+  width: 80%;
+  margin-top: 10px;
+  margin-left: 30px;
+}
