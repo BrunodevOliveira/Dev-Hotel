@@ -47,51 +47,20 @@ header li:first-child{
 header li:last-child{
     margin-right: 0;
 }
-body {
+body{
+    
+    font-family: 'Open Sans', sans-serif;
     background-color: #899b08ab;
-    background-size: cover;  
-    vertical-align: middle;
-    
-    
 }
-
-.box1 {
-    text-align: center;
+.box2{
+    
     border: 2px groove rgba(48, 50, 59, 0.30);
-    width: 300px;
-    height: 260px;
+    width: auto;
     background-position: cover;
     background-color: rgb(220, 241, 160);
-    margin-top: 140px;
+    
     margin-left: auto;
     margin-right: auto;
     top: 50%;
     border-radius: 10px;
 }
-.conta{
-    text-align: center;
-    margin-top: 20px;
-}
-
-.login {
-    background-position: center;
-}
-
-
-.link {
-    text-decoration: none;
-    font-weight: bold;
-    color: #191c03;
-}
-
-.loginbtn {
-    font-size: 15px;
-    background-color: #191c03;
-    color: white;
-    border-radius: 5px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    padding: 3px 18px;
-    background-position: center;
-}
-
-
