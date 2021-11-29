@@ -48,9 +48,10 @@ header li:last-child{
     margin-right: 0;
 }
 body {
+    font-family: 'Open Sans', sans-serif;
     background-color: #ffffff;
     background-size: cover;  
-    vertical-align: middle;
+    text-align: center;
 }
 
 .box1 {
