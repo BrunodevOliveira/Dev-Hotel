@@ -59,7 +59,7 @@ header li:first-child {
 header li:last-child {
   margin-right: 0;
 }
-@media (max-width: 700px) {
+@media (max-width: 750px) {
   header {
     flex-direction: column;
   }
@@ -105,7 +105,7 @@ body {
 .box2 .cpf-cep {
   width: auto;
 }
-#container-btn {
+#container-btn { 
   width: 300px;
 }
 
