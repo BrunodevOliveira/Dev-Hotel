@@ -1,6 +1,5 @@
 # Dev's Hotel
 
-O site da Dev's Hotel foi desenvolvido para o encerramento do módulo de HTML e CSS do curso de Desenvolvedor Web Fullstack da SoulCode Academy.
  <br>
  <br>
 A página foi construida para um hotel(fictício), contruido para desenvolvedores.
