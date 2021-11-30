@@ -165,6 +165,12 @@ p {
     margin-bottom: 10px;
 }
 
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
 footer{
     display: flex;
     flex-direction: column;
