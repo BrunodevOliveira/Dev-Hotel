@@ -2,7 +2,7 @@
 
 O site da Dev's Hotel foi desenvolvido para o encerramento do módulo de HTML e CSS do curso de Desenvolvedor Web Fullstack da SoulCode Academy.
  <br>
-  <br>
+ <br>
 A página foi construida para um hotel(fictício), contruido para desenvolvedores.
 
 
@@ -15,5 +15,5 @@ Entregáveis ☑️ <br>
  Deve conter um rodapé com informações de contato e autoria. <br>
  A listagem de projetos deve ser feita utilizando grid ou flexbox. <br>
  Todas as páginas devem respeitar a semântica do HTML5 (uso adequado de blocos). <br>
- Todo o site deve ser responsivo. <br> <br>
+ Todo o site deve ser responsivo. <br>
  As soluções devem ser postadas no Github para propósitos de avaliação. <br>
