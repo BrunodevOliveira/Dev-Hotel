@@ -1,115 +1,124 @@
-* {margin: 0;
+* {
+    margin: 0;
     padding: 0;
-    box-sizing: border-box;}
-    
-    html, body {
-        font-family:'Open Sans', sans-serif;
-        line-height: 1.7em;
-    }
-    
-    h1, h2, h3 {
-        padding-bottom: 20px;
-    }
-    
-    p {
-        margin: 10px;
-        margin-top: 0;
-    }
-    
-    .container {
-        margin: auto;
-        max-width: 1100px;
-        overflow: auto;
-        padding: 0 20px;
-    }
-    
-    .paragrafo-1 {
-        font-size: 20px;
-    }
-    
-    .cor-dark {background: #272727;
-    color:	#ffffff;}
-    
-    .cor-light {background: white;
-        color:#191716;}
-    
-    .cor-diferente {
-        background:	goldenrod;
-        color: #191716;
-    }
-    
-    #container-id {
-        background-image : url("../img/quartohotel.jpg");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        height: 600px;    
-    }
-    
-    #container-id .container-content {
+    box-sizing: border-box;
+}
+
+
+html,
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.7em;
+}
+
+h1,
+h2,
+h3 {
+    padding-bottom: 20px;
+}
+
+p {
+    margin: 10px;
+    margin-top: 0;
+}
+
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.paragrafo-1 {
+    font-size: 20px;
+}
+
+.cor-dark {
+    background: #272727;
+    color: #ffffff;
+}
+
+.cor-light {
+    background: white;
+    color: #191716;
+}
+
+.cor-diferente {
+    background: goldenrod;
+    color: #191716;
+}
+
+#container-id {
+    background-image: url("../img/quartohotel.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+
+#container-id .container-content {
     color: #ffffff;
     text-align: center;
     padding-top: 170px;
-    }
-    
-    #container-id .container-content h1 {
-        font-size: 60px;
-        line-height: 1.2em;
-        color: white;
-    }
-    
-    #container-id .container-content p {
-        padding-bottom: 20px;
-        line-height: 1.2em;
-        color: white;
-    }
-    
-    #secao-1{
-        height: 450px;
-    }
-    
-    #secao-1 .secao-img {
-        float: left;
-        width: 50%;
-        background-image: url("https://i.pinimg.com/originals/83/6f/0c/836f0cde20fdd80dde6c3b1a5ba94a94.png");
-        background-repeat: no-repeat;
-        min-height: 100%;
-    }
-    
-    #secao-1 .secao-content {
-        float: right;
-        width: 50%;
-        height: 100%;
-        text-align: center;
-        padding: 70px;
-        padding-left: 30px;
-        overflow: hidden;
-    }
-    
-    #secao-1 .secao-content p {
-        padding-bottom: 30px;
-    }
-    
-    .parte-final {
-        color: black;
-    }
-    .box {
-        float: left;
-        width: 33.3%;
-        padding: 50px;
-        text-align: center;
-    }
-    
-    .box i {
-        margin-bottom: 10px;
-    }
-    
-    #footer {
-        text-align: center;
-        background: #282220;
-        color: white;
-        padding: 20px;
-        overflow: hidden;
-    }
-    
-    
+}
+
+#container-id .container-content h1 {
+    font-size: 60px;
+    line-height: 1.2em;
+    color: white;
+}
+
+#container-id .container-content p {
+    padding-bottom: 20px;
+    line-height: 1.2em;
+    color: white;
+}
+
+#secao-1 {
+    height: 450px;
+}
+
+#secao-1 .secao-img {
+    float: left;
+    width: 50%;
+    background-image: url("https://i.pinimg.com/originals/83/6f/0c/836f0cde20fdd80dde6c3b1a5ba94a94.png");
+    background-repeat: no-repeat;
+    min-height: 100%;
+}
+
+#secao-1 .secao-content {
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 70px;
+    padding-left: 30px;
+    overflow: hidden;
+}
+
+#secao-1 .secao-content p {
+    padding-bottom: 30px;
+}
+
+.parte-final {
+    color: black;
+}
+
+.box {
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+}
+
+.box i {
+    margin-bottom: 10px;
+}
+
+#footer {
+    text-align: center;
+    background: #282220;
+    color: white;
+    padding: 20px;
+    overflow: hidden;
+}
