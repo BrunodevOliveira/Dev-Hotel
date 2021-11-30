@@ -10,50 +10,37 @@
 
     </head>
     <body>
+
         <header>
             <a href="#"><img src="img/logo-dev.png" alt="Hotel Paraíso"></a>
             <nav>
-                <li><a href="#" class="pg-atual">Home</a></li>
-                <li><a href="#">Reservas</a></li>
+                <li><a href="#">Home</a></li>
                 <li><a href="#">Sobre</a></li>
+                <li><a href="#">Reservas</a></li>
                 <li><a href="#">Contato</a></li>
             </nav>
         </header>
-        <div class="box1">
-            <table class="table_login">
-                <tr>
-                    
-                    <td><h1 class="login">Login</h1></td>
-                </tr>
-            </table>
-            <hr/>
-            <form method="post" action="#">
-                <div>
-                    <label>
-                        <b>E-mail</b><br>
-                        <input type="email" id="email" name="email"/>
-                    </label>
-                </div><br/>
-                <div>
-                    <label>
-                        <b>Senha</b><br>
-                        <input type="password" id="senha" name="senha"/>
-                    </label>
-                </div><br/>
-                <div>
-                    <label>
-                        <input type="checkbox" name="remember" value="Lembrar-me"/>Lembrar-me
-                    </label><br/>
-                    <hr/>
-                    <label>
-                        <input class="loginbtn" type="submit" id="login" name="login" value="Fazer Login"/>
-                    </label>
-                </div><br/>
-                <div class="conta">
-                    <p>Ainda não tem uma conta?</p>
-                    <a class="link" href="cadastro.html">Cadastre-se agora</a>
-                </div>
+
+        <section>
+            <div class="box">
+                <h2>Login</h2>
+                <form>
+                    <div class="inputBox">
+                        <input type="text" name="" required="">
+                        <label>Usuário</label>
+                    </div>
+                    <div class="inputBox">
+                        <input type="password" name="" required="">
+                        <label>Senha</label>
+                    </div>
+                    <input class="submit" type="submit" value="Entrar">
+                    <div class="conta">
+                        <p>Ainda não tem uma conta?</p>
+                        <a class="link" href="cadastro.html">Cadastre-se agora</a>
+                    </div>
                 </form>
             </div>
+        </section>
+        
     </body>
 </html>
