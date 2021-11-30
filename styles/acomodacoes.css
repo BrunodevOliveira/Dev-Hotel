@@ -70,9 +70,7 @@ header li:last-child {
 
 h1,
 h2 {
-  color: rgb(12, 2, 20);
-  flex-direction: column;
-  text-align: center;
+  color: rgb(12, 2, 20);  text-align: center;
   font-size: 35px;
   font-family: "Titillium Web", sans-serif;
   margin-top: 50px;
