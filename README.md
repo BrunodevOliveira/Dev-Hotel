@@ -6,7 +6,7 @@ A página foi construida para um hotel(fictício), contruido para desenvolvedore
 
 
 
-Entregáveis ☑️
+Entregáveis ☑️ <br>
  Deve conter uma landing page como página inicial, mostrando uma visão geral da empresa/ONG/pessoa. E links para acessar as seguintes páginas:
  Serviços/Currículo (caso seja uma pessoa)
  Projetos
