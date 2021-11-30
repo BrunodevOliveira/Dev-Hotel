@@ -51,11 +51,6 @@ header li a {
 header li a:hover {
   border-bottom: 2px solid #c3c63d;
 }
-.pg-atual {
-  border-bottom: 2px solid #c3c63d;
-  opacity: 1;
-  font-weight: bolder;
-}
 
 header li {
   margin: 0 15px;
@@ -81,7 +76,7 @@ header li:last-child {
 
 html,
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   line-height: 1.7em;
 }
 
@@ -216,17 +211,17 @@ footer ul li a:hover {
 }
 
 .fa-twitter:hover {
-  color: #009DED;
+  color: #009ded;
 }
 
 .fa-snapchat:hover {
-  background-color: #F7F400;
+  background-color: #f7f400;
   color: white;
   border-radius: 50%;
 }
 
 .fa-pinterest:hover {
-  color: #BD0001;
+  color: #bd0001;
   background-color: white;
   border-radius: 50%;
 }
