@@ -115,6 +115,18 @@ footer ul li {
 footer ul li a:hover {
   font-size: 50px;
 }
+
+footer ul li:last-child {
+  margin-right: 0;
+}
+footer ul li a {
+  color: #c3c63d;
+  font-size: 2rem;
+}
+footer p {
+  text-align: center;
+  color: #c3c63d;
+}
 .fa-facebook:hover {
   color: royalblue;
   background-color: white;
@@ -132,17 +144,6 @@ footer ul li a:hover {
   color: #bd0001;
   background-color: white;
   border-radius: 50%;
-}
-footer ul li:last-child {
-  margin-right: 0;
-}
-footer ul li a {
-  color: #c3c63d;
-  font-size: 2rem;
-}
-footer p {
-  text-align: center;
-  color: #c3c63d;
 }
 .hero {
   background-image: url(../img/hotel.jpg);
