@@ -1,19 +1,74 @@
-* {
-    margin: 0;
-    padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,600&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+nav, ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 0.9;
+}
+a:hover{
+    opacity: 1;
+    font-weight: bolder;
+}
+
+/*HEADER*/
+header{
+    background-color: white;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+header img{
+    width: 200px;
+}
+header nav{
+    display: flex;
+}
+header li a{
+    color: #191c03;
+}
+header li a:hover {
+    border-bottom: 2px solid #966345;   
+}
+.pg-atual {
+    border-bottom: 2px solid #966345;
+    opacity: 1;
+    font-weight: bolder;
+}
+header li{
+    margin: 0 15px;
+}
+header li:first-child{
+    margin-left: 0;
+}
+header li:last-child{
+    margin-right: 0;
+}
+@media(max-width: 700px){
+    header{
+        flex-direction: column;
+    }
+    header img{
+        margin-bottom: 15px;
+    }
 }
 
 html,
 body {
     font-family: 'Open Sans', sans-serif;
     line-height: 1.7em;
-}
-
-h1,
-h2,
-h3 {
-    padding-bottom: 20px;
 }
 
 p {
@@ -24,13 +79,12 @@ p {
 .container {
     margin: auto;
     max-width: 1100px;
-    overflow: auto;
-    padding: 0 20px;
 }
 
 .paragrafo-1 {
     font-size: 20px;
 }
+
 
 .cor-dark {
     background: #272727;
@@ -90,8 +144,9 @@ p {
     width: 50%;
     height: 100%;
     text-align: center;
-    padding: 70px;
-    padding-left: 30px;
+    margin: 0;
+    padding: 60px;
+    padding-left: 20px;
     overflow: hidden;
 }
 
@@ -99,9 +154,6 @@ p {
     padding-bottom: 30px;
 }
 
-.parte-final {
-    color: black;
-}
 
 .box {
     float: left;
@@ -116,8 +168,8 @@ p {
 
 #footer {
     text-align: center;
-    background: #282220;
+    background-color: #282220;
     color: white;
     padding: 20px;
-    overflow: hidden;
+
 }
