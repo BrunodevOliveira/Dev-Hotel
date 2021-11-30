@@ -69,6 +69,11 @@ header li:last-child{
         margin-bottom: 15px;
     }
 }
+.pg-atual {
+    border-bottom: 2px solid #c3c63d;
+    opacity: 1;
+    font-weight: bolder;
+  }
 
 
 .box {
