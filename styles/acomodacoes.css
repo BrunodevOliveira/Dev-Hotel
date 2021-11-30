@@ -79,14 +79,38 @@ footer {
   align-items: center;
   background-color: #191c03;
   padding: 50px 50px;
-  margin-top: 100px;
 }
 footer ul {
   display: flex;
   margin-bottom: 25px;
+  height: 75px;
+  /* border: 1px solid blue; */
 }
 footer ul li {
   margin-right: 15px;
+  width: 75px;
+  /* border: 1px solid red; */
+}
+footer ul li a:hover {
+  font-size: 50px;
+}
+.fa-facebook:hover {
+  color: royalblue;
+  background-color: white;
+  border-radius: 50%;
+}
+.fa-twitter:hover {
+  color: #009ded;
+}
+.fa-snapchat:hover {
+  background-color: #f7f400;
+  color: white;
+  border-radius: 50%;
+}
+.fa-pinterest:hover {
+  color: #bd0001;
+  background-color: white;
+  border-radius: 50%;
 }
 footer ul li:last-child {
   margin-right: 0;
@@ -99,7 +123,6 @@ footer p {
   text-align: center;
   color: #c3c63d;
 }
-
 .hero {
   background-image: url(../img/hotel.jpg);
   background-size: cover;
