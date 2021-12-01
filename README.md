@@ -53,5 +53,5 @@ Trata-se de um projeto desenvolvido para o encerramento do módulo de HTML e CSS
 <h2>Acesso</h2>
 <ul>
  <li>Basta clonar o projeto, abrir no VSCode (Ou editor de sua preferência)</li>
- <li>Ou acessa-lo clicando neste <a href="#"><strong>link</strong></a></li>
+ <li>Ou acessa-lo clicando neste <a href="https://brunodevoliveira.github.io/Dev-Hotel/"><strong>link</strong></a></li>
 </ul>
